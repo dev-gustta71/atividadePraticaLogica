@@ -1,13 +1,13 @@
 algoritmo "fruteira"
 //Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00,
-//receber· ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a
-//quantidade (em Kg) de morangos e a quantidade (em Kg) de maÁas adquiridas e escreva o valor
+//receber√° ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a
+//quantidade (em Kg) de morangos e a quantidade (em Kg) de ma√ßas adquiridas e escreva o valor
 //a ser pago pelo cliente.
 var
    quantidadeMaca, quantidadeMorango,valorMaca,valorMorango: real
    valorTotal, valorDesconto,subtotal,quantidadeTotal  : real
 inicio
-   Escreva("QUANTOS KG DE MA«√ DESEJA? ")
+   Escreva("QUANTOS KG DE MA√á√É DESEJA? ")
    leia(quantidadeMaca)
    Escreva("QUANTOS KG DE MORANGO DESEJA? ")
    leia(quantidadeMorango)
@@ -32,7 +32,7 @@ inicio
    quantidadeTotal <- (quantidadeMaca + quantidadeMorango)
    ValorTotal <- ( valorMaca + valorMorango)
 
-   Se (valorTotal > 25 ) ou (quantidadeMorango > 8) entao
+   Se (valorTotal > 25 ) ou (quantidadeTotal > 8) entao
       valorDesconto <- valorTotal * 0.10
       ValorTotal <- valorTotal - valorDesconto
    fimse
@@ -41,7 +41,7 @@ inicio
    Escreval("          NOTA FISCAL             ")
    Escreval("---------------------------------")
    Escreval("QUANTIDADE DE MORANGO: ",quantidadeMorango,"kg")
-   Escreval("QUANTIDADE DE MA«√: ",quantidadeMaca,"kg")
+   Escreval("QUANTIDADE DE MA√á√É: ",quantidadeMaca,"kg")
    Escreval("----------------------------------")
    Escreval("VALOR TOTAL A SE PAGAR  R$ ",subtotal:2:2)
    Escreval("DESCONTO DE 10% APLICADO R$ ",valorDesconto:2:2)
