@@ -1,7 +1,7 @@
 algoritmo "boletimEscolar"
-//Escreva um programa que leia do teclado as duas notas de um aluno, calcule e exiba a média
-//aritmética das notas. O programa deve, adicionalmente, exibir uma mensagem de parabéns
-//caso o aluno esteja aprovado (média superior ou igual a 6,0), média até 4,0, o aluno
+//Escreva um programa que leia do teclado as duas notas de um aluno, calcule e exiba a mÃ©dia
+//aritmÃ©tica das notas. O programa deve, adicionalmente, exibir uma mensagem de parabÃ©ns
+//caso o aluno esteja aprovado (mÃ©dia superior ou igual a 6,0), mÃ©dia atÃ© 4,0, o aluno
 var
    nota1, nota2, media: real
 inicio
@@ -22,13 +22,13 @@ inicio
    escreval("PRIMEIRA NOTA: ",nota1)
    escreval("SEGUNDA NOTA: ",nota2)
    Escreval("----------------------------")
-   Escreval("MÉDIA FINAL: ",media)
+   Escreval("MÃ‰DIA FINAL: ",media)
 
    Se (media >= 6 ) entao
-      escreval("PARABÉNS, ALUNO APROVADO!")
+      escreval("PARABÃ‰NS, ALUNO APROVADO!")
    Senao
-      Se(media >= 4) e    (media <= 6) entao
-         escreval("ALUNO EM RECUPERAÇÃO")
+      Se(media >= 4) e    (media < 6) entao
+         escreval("ALUNO EM RECUPERAÃ‡ÃƒO")
       senao
          Escreval("ALUNO REPROVADO!")
       fimse
