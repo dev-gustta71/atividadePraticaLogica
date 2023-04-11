@@ -1,7 +1,7 @@
 algoritmo "estadoCivil"
-//FaÁa um algoritmo que leia o nome, o sexo e o estado civil de uma pessoa. Caso sexo seja ìFî e
-//estado civil seja ìCASADAî, solicitar o tempo de casada (anos). Por fim, mostre os dados do
-//usu·rio.
+//Fa√ßa um algoritmo que leia o nome, o sexo e o estado civil de uma pessoa. Caso sexo seja ‚ÄúF‚Äù e
+//estado civil seja ‚ÄúCASADA‚Äù, solicitar o tempo de casada (anos). Por fim, mostre os dados do
+//usu√°rio.
 var
    nome, sexo, estadoCivil, tempoCasada: caractere
 inicio
@@ -10,7 +10,7 @@ inicio
 
    limpatela
 
-   Escreva("QUAL SEU SEXO? [MASCULINO/FEMININO]: ")
+   Escreva("QUAL SEU SEXO? [M/F]: ")
    leia(sexo)
 
    limpatela
@@ -20,7 +20,7 @@ inicio
 
    limpatela
 
-   Se (sexo = "FEMININO" ) e (estadoCivil = "CASADA") entao
+   Se (sexo = "F" ) e (estadoCivil = "CASADA") entao
       escreva("QUANTOS ANOS CASADA? ")
       leia(tempoCasada)
 
